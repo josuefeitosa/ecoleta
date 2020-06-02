@@ -42,7 +42,8 @@ export default class PointsController {
     } = request.body;
 
     const point = {
-      image: 'fakeImage',
+      image:
+        'https://www.supermercadosrondon.com.br/img/site/lojas/supermercados_rondon_loja_jussara.jpg',
       name,
       email,
       whatsapp,
