@@ -19,6 +19,22 @@
         "@typescript-eslint", "prettier"
     ],
     "rules": {
-      "prettier/prettier": "warn"
+      "prettier/prettier": "warn",
+      "no-console": "off",
+      "no-unused-vars": "warn",
+      "import/extensions": [
+        "error",
+        "ignorePackages",
+        {
+          "ts": "never"
+        }
+      ],
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "off"
+    },
+    "settings": {
+      "import/resolver": {
+        "typescript": {}
+      }
     }
 }
